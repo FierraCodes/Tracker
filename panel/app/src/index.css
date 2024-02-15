@@ -1,0 +1,30 @@
+/* Container holding the sidebar and map */
+.container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px; /* Width of the sidebar */
+  background-color: #f8f9fa; /* Background color */
+  overflow: auto; /* Enable scrolling if the sidebar is too tall */
+  padding: 1em; /* Padding for content inside the sidebar */
+}
+
+/* Map */
+.map {
+  flex-grow: 1; /* Take up remaining width */
+}
+
+body {
+  overflow: hidden;
+}
+
+.codeblock {
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  width: 280px;
+  height: auto;
+}

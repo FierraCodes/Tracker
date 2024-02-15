@@ -1,0 +1,20 @@
+{
+  "build": {
+    "dev": {
+      "android": {
+        "buildType": "apk",
+        "developmentClient": true
+      }
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk"
+       }
+    },
+    "production": {
+        "android": {
+          "buildType": "apk"
+        }
+    }
+  }
+}
